@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<link rel="stylesheet" href="CRUD_Aluno.css" >
+	<script src="CRUD_Aluno.js"></script>
+
+</head>
+<body>
+
+	<form>
+
+		<fieldset>
+			<legend>Identificação</legend>
+
+			<div>
+				<label for="numero">Número</label>
+				<input id="numero" type="text" >
+			</div>
+
+			<div>
+				<label for="proprio">Nome Próprio</label>
+				<input id="proprio" type="text" >
+			</div>
+
+			<div>
+				<label for="apelido">Apelido</label>
+				<input id="apelido" type="text" >
+			</div>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Contactos</legend>
+
+			<div>
+				<label for="email">eMail</label>
+				<input id="email" type="text">
+			</div>
+
+			<div>
+				<label for="telemovel">Telemóvel</label>
+				<input id="telemovel" type="text">
+			</div>
+
+		</fieldset>
+
+		<fieldset id="crud">
+			<legend>CRUD operations</legend>
+			<button id="create" type='submit'>Create</button>
+			<button id="read" type='submit'>Read</button>
+			<button id="update" type='submit'>Update</button>
+			<button id="delete" type='submit'>Delete</button>
+		</fieldset>
+
+		<fieldset>
+			<legend>Feedback</legend>
+			<p id="feedback"></p>
+			<button id="delete" type='reset'>Limpar</button>
+		</fieldset>
+
+	</form>
+
+	 
+
+</body>
+</html>

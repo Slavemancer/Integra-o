@@ -1,0 +1,6 @@
+***   Arranca o servidor 
+      Mudamos a propriedade 'id' da Database para 'numero' 
+json-server --watch --id numero alunos.json
+
+
+

@@ -1,0 +1,40 @@
+{
+  "alunos": [
+    {
+      "numero": "180100325",
+      "primeiroNome": "André",
+      "apelido": "Ribeiro",
+      "contactos": {
+        "email": "andrib@gmail.com",
+        "telemovel": "939196316"
+      }
+    },
+    {
+      "numero": "180100339",
+      "primeiroNome": "Bernardo",
+      "apelido": "Guerra",
+      "contactos": {
+        "email": "bergue@gmail.com",
+        "telemovel": "919693613"
+      }
+    },
+    {
+      "numero": "170100256",
+      "primeiroNome": "Bruno",
+      "apelido": "Bernardo",
+      "contactos": {
+        "email": "bruber@gmail.com",
+        "telemovel": "933126879"
+      }
+    },
+    {
+      "numero": "1801003252",
+      "primeiroNome": "André",
+      "apelido": "Ribeiroaa",
+      "contactos": {
+        "email": "andrib@gmail.com",
+        "telemovel": "939196316"
+      }
+    }
+  ]
+}

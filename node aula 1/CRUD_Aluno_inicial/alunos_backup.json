@@ -1,0 +1,31 @@
+{
+  "alunos": [
+    {
+      "numero": "180100288",
+      "primeiroNome": "André",
+      "apelido": "Vieira",
+      "contactos": {
+        "email": "andvid@gmail.com",
+        "telemovel": "969391139"
+      }
+    },
+    {
+      "numero": "180100325",
+      "primeiroNome": "André",
+      "apelido": "Ribeiro",
+      "contactos": {
+        "email": "andrib@gmail.com",
+        "telemovel": "939196316"
+      }
+    },
+    {
+      "numero": "180100339",
+      "primeiroNome": "Bernardo",
+      "apelido": "Guerra",
+      "contactos": {
+        "email": "bergue@gmail.com",
+        "telemovel": "919693613"
+      }
+    }
+  ]
+}

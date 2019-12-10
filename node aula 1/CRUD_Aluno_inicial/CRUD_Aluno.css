@@ -1,0 +1,61 @@
+/* CRUD_Aluno.css */
+
+body { font-family: "Lucida Brigth", serif;
+	   font-size:150%;	
+}
+
+form { 
+		max-width: 1000px;
+		margin: 1em auto;
+	 }
+
+div { margin-bottom: 1em; }
+
+label { display: block; }
+
+input[type='text'] { 
+						width: 100%; 
+						padding:0.5em;
+						font-size: 1em;
+						box-sizing: border-box;
+				    }
+
+button { 
+		font-size: 1em;
+		padding: 0.5em 1em;
+		border-radius: 0.25em;
+		cursor:pointer;
+	   }	
+
+fieldset { 
+			box-sizing: border-box;
+			padding-top: 1em;
+		 }
+
+fieldset:nth-child(1) {  width:48.5%; float:left; margin-bottom: 2em; }
+fieldset:nth-child(2) {  width:48.5%; float:right;  }	
+
+fieldset:nth-child(3) { 
+						clear:both;
+						width: 100%;
+						text-align: center;
+					  }  
+
+fieldset#crud button { margin-right: 1em; }	
+
+#feedback  {
+			 width: calc(100% - 150px - 1em);
+			 float:left;
+			 float: left;
+    		 margin: 0 1em 0 0;
+    		 padding: 0.5em 0;
+		    }
+
+#feedback.erro { color:red; }
+
+#feedback + button { 
+					font-size: 0.75em;
+					float: right;
+				   }
+
+

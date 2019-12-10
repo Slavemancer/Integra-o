@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Infraestruturas de Portugal</title>
+	<script src="infraestruturasPortugal.js" ></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap" rel="stylesheet">
+	<link href="infraestruturasPortugal.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Infraestruturas de Portugal</h1>
+		<p>A API escondida</p>
+	</header>
+
+	<div>	
+			<h2>A ver passar os comboios</h2>
+	</div>
+
+	<form>
+		<label>Estação de Origem</label>
+		<input id="estacaoOrigem" type="text" list="estacoes">
+		<datalist id="estacoes">
+		  <option value="Chrome">
+		  <option value="Firefox">
+		  <option value="Internet Explorer">
+		  <option value="Opera">
+		  <option value="Safari">
+		</datalist>
+		<label>Data</label>
+		<input id="dia" type="date">
+
+		<input type="submit" value="Pesquisar">
+	</form>
+
+	<table id="refer">
+		<thead>
+			<tr>
+				<th>HORA</th>
+				<th colspan="2">COMBOIO</th>
+				<th>ORIGEM</th>
+				<th>DESTINO</th>
+				<th>OPERADOR</th>
+				<th>ESTADO</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1:34</td>
+				<td>
+					<a href="/negocios-e-servicos/horarios/detalhe/4401/">4401</a>
+				</td>
+				<td>REGIONAL</td>
+				<td>
+					<a href="/negocios-e-servicos/estacoes/detalhe/9430007/">LISBOA-APOLÓNIA</a>
+				</td>
+				<td>
+					<a href="/negocios-e-servicos/estacoes/detalhe/9434009/">ENTRONCAMENTO</a>
+				</td>
+				<td>CP REGIONAL</td>
+				<td>À tabela</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+
+</body>
+</html>

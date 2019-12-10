@@ -1,0 +1,31 @@
+[{
+    "numeros": [16, 19, 23, 35, 4],
+    "estrelas": [10, 2]
+}, {
+    "numeros": [24, 33, 4, 46, 5],
+    "estrelas": [10, 9]
+}, {
+    "numeros": [25, 31, 32, 35, 5],
+    "estrelas": [12, 3]
+}, {
+    "numeros": [11, 19, 20, 35, 43],
+    "estrelas": [3, 6]
+}, {
+    "numeros": [20, 43, 47, 5, 6],
+    "estrelas": [2, 9]
+}, {
+    "numeros": [1, 11, 29, 30, 48],
+    "estrelas": [3, 9]
+}, {
+    "numeros": [17, 30, 43, 46, 49],
+    "estrelas": [11, 6]
+}, {
+    "numeros": [15, 27, 32, 43, 49],
+    "estrelas": [11, 9]
+}, {
+    "numeros": [11, 33, 43, 45, 46],
+    "estrelas": [6, 9]
+}, {
+    "numeros": [14, 15, 2, 38, 8],
+    "estrelas": [4, 9]
+}][{"numeros":[19,2,37,4,49],"estrelas":[1,8]},{"numeros":[11,18,19,35,38],"estrelas":[3,7]},{"numeros":[26,34,42,43,7],"estrelas":[10,3]},{"numeros":[2,25,41,44,8],"estrelas":[8,9]},{"numeros":[27,3,39,47,50],"estrelas":[8,9]},{"numeros":[14,30,36,38,4],"estrelas":[1,7]},{"numeros":[17,20,30,41,45],"estrelas":[3,6]},{"numeros":[15,19,44,46,8],"estrelas":[3,8]},{"numeros":[22,33,40,49,7],"estrelas":[10,2]},{"numeros":[24,25,27,33,43],"estrelas":[4,7]}]

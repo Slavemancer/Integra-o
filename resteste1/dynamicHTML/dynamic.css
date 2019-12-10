@@ -1,0 +1,24 @@
+/* dynamic.css */
+
+h1 { 
+		font-family: Georgia, sans-serif;
+	 }
+
+body { 
+	   font-family: Palatino, sans-serif;
+	   font-size: 20px;
+	 }	 
+
+
+span { margin-right: 1em; }
+
+span.numero { color:#666; }
+span.nome { 
+			display: inline-block;
+			width: 12em;
+		  }
+
+li { line-height: 1.5; }		  
+
+
+	 

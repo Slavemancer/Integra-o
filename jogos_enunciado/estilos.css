@@ -1,0 +1,67 @@
+body  { 
+		font-family: Verdana, sans-serif;
+		margin:0;
+	  }
+
+header { 
+			background-color: #333333;
+			color:white;
+			
+			width: 1000px;
+			padding-left: calc( ( 100% - 1000px ) / 2 ); 
+			padding-right: calc( ( 100% - 1000px ) / 2 ); 
+			overflow: hidden;
+	   }
+
+header h1 { float:left; margin-right: 2em; }
+header h2 { float:left; margin-top: 1.2em;}
+
+main { 
+		margin:20px auto;
+		width:1000px;
+		overflow: hidden;
+	 }
+
+
+
+ul#jogos { 
+			list-style-type: none; 
+			margin-left: 0;
+			padding-left: 0;
+			width: 700px;
+			float:left;
+		}
+
+#jogos li { margin-bottom: 0.5em; }
+
+#jogos label { font-size: 18px; margin-right: 0.5em;}	
+
+#jogos input {
+				padding: 0.5em 1em;
+				font-size: 18px;
+				width:40px;
+				margin-right: 1em;
+				text-align: center;
+			   }	
+
+
+#jogos button {
+				padding: 0.5em 1em;
+				font-size: 16px;
+				border-radius: 5px;
+				background-color: #046380;
+				color:#EFECCA;
+				cursor:pointer;
+	          }
+
+
+
+#jogos label { 
+			display:inline-block;
+			width: 180px; 
+		}	
+
+#jogos label:first-child { text-align: right; }							
+
+
+ 

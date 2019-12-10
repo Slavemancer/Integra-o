@@ -1,0 +1,2 @@
+EXCLAMATION_MARK='!'
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/AC4aaa5f4e929defeecb6fc72f80f48414/Messages.json --data-urlencode "Body=Hi there" --data-urlencode "From=+12055836254" --data-urlencode "To=+351913167270" -u AC4aaa5f4e929defeecb6fc72f80f48414:affb9df06ef6f7c0230200409dc8ea5e

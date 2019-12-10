@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Galeria de Fotos</title>
+    <link rel="stylesheet" href="fotos.css">
+    <script src="fotos.js"></script>
+</head>
+
+<body>
+
+    <h1>Galeria de Fotos</h1>
+
+    <main>
+
+        <label>Username</label>
+        <select id="usernames">
+
+			<!-- Os elementos <option> serão construídos dinâmicamente: 1 elemento <option> por cada username devolvido por 
+									GET http://localhost:3000/usernames
+			-->
+			<option value="AntRob">AntRob</option>
+			<option value="BujiBuji">BujiBuji</option>
+			<option value="RoniRoni">RoniRoni</option>
+		</select>
+
+        <section id="fotos">
+
+
+            <div class="foto" id="i_d9f59f64fc"><img src="imagens\d9f59f64fc_m.jpg"><button data-fotoid="d9f59f64fc"><img src="icons\glyphicons-344-thumbs-up.png"></button><img src="icons\glyphicons-20-heart-empty.png"></div>
+            <div class="foto" id="i_778dfba770"><img src="imagens\778dfba770_m.jpg"><button data-fotoid="778dfba770"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_0c32da66bd"><img src="imagens\0c32da66bd_m.jpg"><button data-fotoid="0c32da66bd"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_098faa52c9"><img src="imagens\098faa52c9_m.jpg"><button data-fotoid="098faa52c9"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_12e163702d"><img src="imagens\12e163702d_m.jpg"><button data-fotoid="12e163702d"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_9cf2673ee4"><img src="imagens\9cf2673ee4_m.jpg"><button data-fotoid="9cf2673ee4"><img src="icons\glyphicons-344-thumbs-up.png"></button><img src="icons\glyphicons-20-heart-empty.png"></div>
+            <div class="foto" id="i_e026d44108"><img src="imagens\e026d44108_m.jpg"><button data-fotoid="e026d44108"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_be78c6ab8a"><img src="imagens\be78c6ab8a_m.jpg"><button data-fotoid="be78c6ab8a"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_2607d05083"><img src="imagens\2607d05083_m.jpg"><button data-fotoid="2607d05083"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_935e17977d"><img src="imagens\935e17977d_m.jpg"><button data-fotoid="935e17977d"><img src="icons\glyphicons-344-thumbs-up.png"></button><img src="icons\glyphicons-20-heart-empty.png"></div>
+            <div class="foto" id="i_60ce1bf91e"><img src="imagens\60ce1bf91e_m.jpg"><button data-fotoid="60ce1bf91e"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+            <div class="foto" id="i_77f7471874"><img src="imagens\77f7471874_m.jpg"><button data-fotoid="77f7471874"><img src="icons\glyphicons-344-thumbs-up.png"></button></div>
+        </section>
+
+
+    </main>
+
+
+</body>
+
+</html>
